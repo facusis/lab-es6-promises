@@ -1,7 +1,9 @@
+
 /* CALL THIS FUNCTION FROM OTHER FILES */
 /****** DO NOT TOUCH vvv *****/
 
 // Callback based function
+// export, esto sirve para usar la funcion en otro archivo. tiene que estar en la misma linea de la funcion.
 function getInstruction(food, step, callback, errorCallback) {
     setTimeout(() => {
       // Get the instruction string
